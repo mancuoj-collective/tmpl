@@ -4,6 +4,7 @@ import { NavLink, NavLinkProps } from 'react-router-dom'
 export function RouterNavLink({ to, children, className, ...props }: NavLinkProps) {
   return (
     <NavLink
+      viewTransition
       to={to}
       className={({ isActive }) => {
         return cn(
