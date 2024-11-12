@@ -15,7 +15,14 @@ export function Hero() {
         >
           Next Generation React Starter Template
         </h1>
-        <p className="text-muted-foreground w-[400px] max-w-full text-center text-sm leading-5 md:text-base md:leading-6 text-balance">
+        <p
+          className={cn(
+            'text-balance text-center text-muted-foreground',
+            'w-[400px] max-w-full',
+            'text-sm md:text-base',
+            'leading-5 md:leading-6',
+          )}
+        >
           Our mission is to make web developers more productive than ever before.
         </p>
       </section>

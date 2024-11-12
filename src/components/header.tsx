@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header className="border-b">
       <section className="c flex items-center justify-between px-5 py-6">
-        <a href="/" className="text-xl font-semibold font-serif">
+        <a href="/" className="font-serif text-xl font-semibold">
           tmpl
         </a>
         <ul className="flex items-center gap-4">

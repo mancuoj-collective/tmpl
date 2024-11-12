@@ -9,7 +9,7 @@ export function RouterLink({ title, className, ...props }: RouterLinkProps) {
     <a
       href="/"
       className={cn(
-        'text-sm  font-medium',
+        'text-sm font-medium',
         'text-muted-foreground hover:text-foreground',
         'transition-colors duration-200 ease-in-out',
         className,
