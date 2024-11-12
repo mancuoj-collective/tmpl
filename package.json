@@ -22,9 +22,9 @@
     "lucide-react": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-router-dom": "latest",
     "tailwind-merge": "latest",
     "tailwindcss-animate": "latest",
-    "wouter": "latest",
     "zustand": "latest"
   },
   "devDependencies": {
