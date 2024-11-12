@@ -1,25 +1,26 @@
-import { DarkModeToggle } from './dark-mode-toggle'
-import { RouterLink } from './router-link'
+import { Link, useLocation } from 'react-router-dom'
+import { RouterNavLink } from './router-nav-link'
+import { HeaderCallout } from './header-callout'
 
 export function Header() {
+  const location = useLocation()
+
   return (
     <header className="border-b">
       <section className="c flex items-center justify-between px-5 py-6">
-        <a href="/" className="font-serif text-xl font-semibold">
+        <HeaderCallout>{location.pathname}</HeaderCallout>
+        <Link to="/" className="font-serif text-xl font-semibold">
           tmpl
-        </a>
+        </Link>
         <ul className="flex items-center gap-4">
           <li>
-            <RouterLink title="Home" className="text-foreground" />
+            <RouterNavLink to="/">Home</RouterNavLink>
           </li>
           <li>
-            <RouterLink title="Blog" />
+            <RouterNavLink to="/blog">Blog</RouterNavLink>
           </li>
           <li>
-            <RouterLink title="About" />
-          </li>
-          <li>
-            <DarkModeToggle />
+            <RouterNavLink to="/about">About</RouterNavLink>
           </li>
         </ul>
       </section>

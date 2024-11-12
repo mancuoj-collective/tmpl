@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils'
 export function Hero() {
   return (
     <section className="border-b">
-      <section className="c grid-bg flex flex-col items-center justify-center px-5 py-24">
+      <div className="c grid-bg flex flex-col items-center justify-center px-5 py-24">
         <h1
           className={cn(
             'text-center text-balance font-semibold font-serif',
@@ -14,7 +14,7 @@ export function Hero() {
           )}
         >
           Next Generation React Starter Template
-        </h1>
+        </h1>{' '}
         <p
           className={cn(
             'text-balance text-center text-muted-foreground',
@@ -25,7 +25,7 @@ export function Hero() {
         >
           Our mission is to make web developers more productive than ever before.
         </p>
-      </section>
+      </div>
     </section>
   )
 }
