@@ -1,22 +1,15 @@
-import { cn } from '@/lib/utils'
+import { SectionNumber } from '../ui/section-number'
 
 export function Projects() {
   return (
     <section className="border-b">
       <div className="c flex h-[800px] flex-col pt-20 xl:pt-8">
-        <span
-          className={cn(
-            'font-mono text-lg font-semibold',
-            'size-[50px] flex justify-center items-center',
-            'absolute top-0 left-0',
-            'border-b border-r',
-            'sm:translate-x-[-100%] xl:border-l xl:border-r-0',
-          )}
-        >
-          01
-        </span>
-        <span className="absolute right-4 top-4 font-mono text-[12px] text-muted-foreground">package.json</span>
-        <h2 className="mb-3 px-10 font-serif text-2xl font-semibold sm:text-[28px]">Projects</h2>
+        <SectionNumber num="01" />
+        <h2 className="mb-5 px-10 font-serif text-2xl font-semibold md:text-3xl">Projects</h2>
+        <p className="mb-12 w-[600px] max-w-[calc(100%_-_80px)] text-pretty px-10 text-[15px] text-muted-foreground">
+          Simple, scalable and powerful templates for building production ready React applications.
+        </p>
+        <div className="dotted-separator" />
       </div>
     </section>
   )

@@ -1,6 +1,6 @@
-import { Footer } from '@/components/footer'
-import { Header } from '@/components/header'
-import { Spacer } from '@/components/spacer'
+import { Footer } from '@/components/ui/footer'
+import { Header } from '@/components/ui/header'
+import { Spacer } from '@/components/ui/spacer'
 import { Outlet } from 'react-router-dom'
 
 export function Layout() {

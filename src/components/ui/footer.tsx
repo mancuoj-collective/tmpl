@@ -7,7 +7,7 @@ export function Footer() {
 
   return (
     <footer className="border-b">
-      <div className="c flex items-center justify-between p-3 md:p-5">
+      <div className="c flex items-center justify-between p-3 sm:p-5">
         <Link to="/" className="font-serif text-lg font-semibold text-muted-foreground">
           tmpl
         </Link>
