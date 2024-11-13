@@ -59,12 +59,6 @@ importers:
       react-router-dom:
         specifier: latest
         version: 6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tailwind-merge:
-        specifier: latest
-        version: 2.5.4
-      tailwindcss-animate:
-        specifier: latest
-        version: 1.0.7(tailwindcss@3.4.14)
       zustand:
         specifier: latest
         version: 5.0.1(@types/react@18.3.3)(react@18.3.1)(use-sync-external-store@1.2.2(react@18.3.1))
@@ -93,9 +87,18 @@ importers:
       prettier:
         specifier: latest
         version: 3.3.3
+      tailwind-merge:
+        specifier: latest
+        version: 2.5.4
+      tailwind-scrollbar:
+        specifier: latest
+        version: 3.1.0(tailwindcss@3.4.14)
       tailwindcss:
         specifier: latest
         version: 3.4.14
+      tailwindcss-animate:
+        specifier: latest
+        version: 1.0.7(tailwindcss@3.4.14)
       typescript:
         specifier: latest
         version: 5.6.3
@@ -1211,6 +1214,12 @@ packages:
   tailwind-merge@2.5.4:
     resolution: {integrity: sha512-0q8cfZHMu9nuYP/b5Shb7Y7Sh1B7Nnl5GqNr1U+n2p6+mybvRtayrQ+0042Z5byvTA8ihjlP8Odo8/VnHbZu4Q==}
 
+  tailwind-scrollbar@3.1.0:
+    resolution: {integrity: sha512-pmrtDIZeHyu2idTejfV59SbaJyvp1VRjYxAjZBH0jnyrPRo6HL1kD5Glz8VPagasqr6oAx6M05+Tuw429Z8jxg==}
+    engines: {node: '>=12.13.0'}
+    peerDependencies:
+      tailwindcss: 3.x
+
   tailwindcss-animate@1.0.7:
     resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
     peerDependencies:
@@ -2242,6 +2251,10 @@ snapshots:
   supports-preserve-symlinks-flag@1.0.0: {}
 
   tailwind-merge@2.5.4: {}
+
+  tailwind-scrollbar@3.1.0(tailwindcss@3.4.14):
+    dependencies:
+      tailwindcss: 3.4.14
 
   tailwindcss-animate@1.0.7(tailwindcss@3.4.14):
     dependencies:

@@ -7,11 +7,11 @@ export function Footer() {
 
   return (
     <footer className="border-b">
-      <div className="c flex items-center justify-between p-5">
+      <div className="c flex items-center justify-between p-3 md:p-5">
         <Link to="/" className="font-serif text-lg font-semibold text-muted-foreground">
           tmpl
         </Link>
-        <p className="font-mono text-[13px] text-muted-foreground">Copyright © 2024 mancuoj-collective</p>
+        <p className="font-mono text-[13px] text-muted-foreground">Copyright © 2024 mancuoj</p>
         <div className="flex items-center gap-2">
           <button className="relative flex text-muted-foreground hover:text-foreground" onClick={toggleDark}>
             <RiSunLine className="sun size-[18px] rotate-0 scale-100 transition-transform duration-500 dark:-rotate-90 dark:scale-0" />

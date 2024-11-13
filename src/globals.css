@@ -64,6 +64,14 @@
     @apply border-border;
   }
 
+  html {
+    @apply scrollbar-thin scrollbar-thumb-zinc-900 scrollbar-track-zinc-200;
+  }
+
+  html.dark {
+    @apply scrollbar-thumb-zinc-700 scrollbar-track-zinc-900;
+  }
+
   body {
     @apply bg-background text-foreground;
   }

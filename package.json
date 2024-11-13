@@ -23,8 +23,6 @@
     "react": "latest",
     "react-dom": "latest",
     "react-router-dom": "latest",
-    "tailwind-merge": "latest",
-    "tailwindcss-animate": "latest",
     "zustand": "latest"
   },
   "devDependencies": {
@@ -37,6 +35,9 @@
     "postcss": "latest",
     "prettier": "latest",
     "tailwindcss": "latest",
+    "tailwind-merge": "latest",
+    "tailwindcss-animate": "latest",
+    "tailwind-scrollbar": "latest",
     "typescript": "latest",
     "vite": "latest"
   },
