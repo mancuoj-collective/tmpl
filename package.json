@@ -10,9 +10,8 @@
     "@fontsource-variable/source-serif-4": "latest",
     "@fontsource/ibm-plex-mono": "latest",
     "@radix-ui/react-label": "latest",
-    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-slot": "latest",
     "@radix-ui/react-tooltip": "latest",
-    "@remixicon/react": "latest",
     "class-variance-authority": "latest",
     "clsx": "latest",
     "framer-motion": "latest",
@@ -26,6 +25,9 @@
     "zustand": "latest"
   },
   "devDependencies": {
+    "@egoist/tailwindcss-icons": "latest",
+    "@iconify-json/ri": "latest",
+    "@iconify-json/simple-icons": "latest",
     "@mancuoj/prettier-config": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
@@ -34,10 +36,10 @@
     "autoprefixer": "latest",
     "postcss": "latest",
     "prettier": "latest",
-    "tailwindcss": "latest",
     "tailwind-merge": "latest",
-    "tailwindcss-animate": "latest",
     "tailwind-scrollbar": "latest",
+    "tailwindcss": "latest",
+    "tailwindcss-animate": "latest",
     "typescript": "latest",
     "vite": "latest"
   },
