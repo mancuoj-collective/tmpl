@@ -30,7 +30,7 @@ export function Packages() {
             <span className="i-simple-icons-reactrouter size-8 hover:bg-[#CA4245]" />
           </GridItem>
           <GridItem href="https://tanstack.com/query" className="py-8">
-            <span className="i-simple-icons-reactquery size-8 hover:bg-[#FF4154]" />
+            <span className="i-simple-icons-reactquery size-7 hover:bg-[#FF4154]" />
           </GridItem>
           <GridItem href="https://tailwindcss.com" className="border-r-0 py-8">
             <span className="i-simple-icons-tailwindcss size-8 hover:bg-[#06B6D4]" />
@@ -52,7 +52,7 @@ export function Packages() {
         </ul>
         <ul className="grid grid-cols-2 md:grid-cols-4">
           <GridItem href="https://react-hook-form.com" className="border-b-0 py-8">
-            <span className="i-simple-icons-reacthookform size-7 hover:bg-[#EC5990]" />
+            <span className="i-simple-icons-reacthookform size-6 hover:bg-[#EC5990]" />
           </GridItem>
           <GridItem href="https://zod.dev" className="border-b-0 border-r-0 py-8 md:border-r">
             <span className="i-simple-icons-zod size-7 hover:bg-[#3E67B1]" />
