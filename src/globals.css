@@ -65,11 +65,7 @@
   }
 
   html {
-    @apply scrollbar-thin scrollbar-thumb-zinc-900 scrollbar-track-zinc-200;
-  }
-
-  html.dark {
-    @apply scrollbar-thumb-zinc-700 scrollbar-track-zinc-900;
+    @apply scroll-smooth scrollbar-thin scrollbar-track-transparent scrollbar-thumb-muted-foreground;
   }
 
   body {
