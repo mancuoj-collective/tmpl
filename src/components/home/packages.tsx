@@ -7,7 +7,9 @@ export function Packages() {
     <section className="border-b">
       <div className="c flex flex-col pt-16 xl:pt-8">
         <SectionNumber num="02" />
-        <span className="absolute right-4 top-4 font-mono text-[12px] text-muted-foreground">package.json</span>
+        <span className="absolute right-4 top-4 font-mono text-[12px] text-muted-foreground">
+          package.json
+        </span>
         <h2 className="mb-4 px-10 font-serif text-2xl font-semibold md:text-3xl">Our Packages</h2>
         <div className="mb-10 flex items-center px-10 text-[12px]">
           <span className="rounded-s bg-foreground/10 py-1 pl-2 pr-1.5">npm</span>
@@ -63,7 +65,11 @@ export function Packages() {
   )
 }
 
-function GridItem({ children, href, className }: PropsWithChildren<{ href: string; className?: string }>) {
+function GridItem({
+  children,
+  href,
+  className,
+}: PropsWithChildren<{ href: string; className?: string }>) {
   return (
     <div className={cn('flex flex-col items-center justify-center border-b border-r', className)}>
       <a href={href} target="_blank" rel="noreferrer">

@@ -12,7 +12,10 @@ export function Footer() {
         </Link>
         <p className="font-mono text-[13px] text-muted-foreground">Copyright © 2024 mancuoj</p>
         <div className="flex items-center gap-2">
-          <button className="relative flex text-muted-foreground hover:text-foreground" onClick={toggleDark}>
+          <button
+            className="relative flex text-muted-foreground hover:text-foreground"
+            onClick={toggleDark}
+          >
             <span className="sun i-ri-sun-line size-[18px] rotate-0 scale-100 transition-transform duration-500 dark:-rotate-90 dark:scale-0" />
             <span className="moon i-ri-moon-line absolute size-[18px] rotate-90 scale-0 transition-transform duration-500 dark:rotate-0 dark:scale-100" />
           </button>

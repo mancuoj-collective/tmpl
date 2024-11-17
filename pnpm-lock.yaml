@@ -71,7 +71,7 @@ importers:
         version: 1.2.11
       '@mancuoj/prettier-config':
         specifier: latest
-        version: 0.3.0(prettier@3.3.3)
+        version: 0.4.0(prettier@3.3.3)
       '@types/node':
         specifier: latest
         version: 22.8.1
@@ -325,8 +325,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@mancuoj/prettier-config@0.3.0':
-    resolution: {integrity: sha512-8jWldU5duUSIM8oe0OBzG1XN0vca4GrdVE4HsAFjY0vF+vWtMxaOMVCYZhU0nn/uVzmmIH5qk/7hvGFoQ4ENpA==}
+  '@mancuoj/prettier-config@0.4.0':
+    resolution: {integrity: sha512-9bcAjbNOjEfDlDnStVMtAbOaUC46aJDuJ38z8KsX694lfCJqP6ikO12JQKc3IGpQztS4810GyY3PyRGHVFUCxw==}
     hasBin: true
     peerDependencies:
       prettier: ^3.2.5
@@ -1115,6 +1115,9 @@ packages:
   picocolors@1.1.0:
     resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
 
+  picocolors@1.1.1:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
+
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
@@ -1557,10 +1560,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mancuoj/prettier-config@0.3.0(prettier@3.3.3)':
+  '@mancuoj/prettier-config@0.4.0(prettier@3.3.3)':
     dependencies:
       '@antfu/install-pkg': 0.4.1
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       prettier: 3.3.3
 
   '@nodelib/fs.scandir@2.1.5':
@@ -2205,6 +2208,8 @@ snapshots:
   pathe@1.1.2: {}
 
   picocolors@1.1.0: {}
+
+  picocolors@1.1.1: {}
 
   picomatch@2.3.1: {}
 
